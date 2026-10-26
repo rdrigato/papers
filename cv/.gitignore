@@ -1,0 +1,11 @@
+# Quarto / LaTeX build artifacts
+*.tex
+*.aux
+*.log
+*.out
+*.toc
+*.synctex.gz
+*_files/
+.quarto/
+/.quarto/
+*.pdf

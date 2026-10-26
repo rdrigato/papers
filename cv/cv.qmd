@@ -1,0 +1,83 @@
+---
+format:
+  pdf:
+    pdf-engine: xelatex
+    documentclass: article
+    fontsize: 10pt
+    geometry:
+      - letterpaper
+      - top=0.7in
+      - bottom=0.8in
+      - left=0.75in
+      - right=0.75in
+    header-includes:
+      - \usepackage{libertine}
+      - \usepackage{enumitem}
+      - \usepackage{needspace}
+      - \usepackage{fancyhdr}
+      - \usepackage[hidelinks]{hyperref}
+      - \setlength{\parindent}{0pt}
+      - \setlength{\parskip}{0pt}
+      - \pagestyle{fancy}
+      - \fancyhf{}
+      - \cfoot{\thepage}
+      - \renewcommand{\headrulewidth}{0pt}
+      - \newcommand{\cvsection}[1]{\Needspace{6\baselineskip}\vspace{1.3em}\noindent{\bfseries #1}\par\vspace{-0.2em}\noindent\rule{\textwidth}{0.4pt}\par\vspace{0.45em}}
+      - \newcommand{\cvdated}[2]{\noindent\makebox[0.95in][l]{#1}\begin{minipage}[t]{\dimexpr\textwidth-0.95in\relax}#2\end{minipage}\par\vspace{0.8em}}
+      - \newcommand{\cvitem}[1]{\noindent\begin{minipage}{\textwidth}#1\end{minipage}\par\vspace{0.8em}}
+      - \newcommand{\cvsubsection}[1]{\Needspace{4\baselineskip}\noindent{\bfseries #1}\par\vspace{0.4em}}
+      - \setlist[enumerate]{leftmargin=1.5em,labelsep=0.4em,itemsep=0.5em,parsep=0pt,topsep=0pt}
+---
+
+\noindent{\bfseries Rodolfo Dinis Rigato}\hfill rodolfo.dinis\_rigato@ecb.europa.eu
+
+\cvsection{Current Position}
+
+\cvdated{2023--Present}{European Central Bank\\Senior Economist\\DG-Economics, Forecasting and Policy Modelling Division}
+
+\cvsection{Education}
+
+\cvdated{2018--2023}{Harvard University\\Ph.D., Economics}
+\cvdated{2016--2018}{Pontifical Catholic University of Rio de Janeiro\\M.A., Economics}
+\cvdated{2011--2015}{Insper\\B.A., Economics}
+
+\cvsection{Research}
+
+\cvsubsection{Publications}
+
+\begin{enumerate}
+\item “A Least-Squares Filter for Sequence-Space Models.”\\\textit{Economics Letters}, 2026.
+\item “New Pricing Models, Same Old Phillips Curve?” With Adrien Auclert, Matthew Rognlie, and Ludwig Straub.\\\textit{Quarterly Journal of Economics}, 2024.
+\item “Multi-Product Pricing: Theory and Evidence From Large Retailers.” With Marco Bonomo, Carlos Carvalho, Oleksiy Kryvtsov, and Sigal Ribon.\\\textit{The Economic Journal}, 2023.
+\item “Persistent Monetary Non-neutrality in an Estimated Model with Menu Costs and Partially Costly Information.” With Marco Bonomo, Carlos Carvalho, Rene Garcia, and Vivian Malta.\\\textit{American Economic Journal: Macroeconomics}, 2023.
+\end{enumerate}
+
+\vspace{0.8em}
+\cvsubsection{Working Papers}
+
+\begin{enumerate}
+\item “Higher-Order Perturbation in Sequence Space: the Certainty Correspondence.” With Adrien Auclert, Matthew Rognlie, and Ludwig Straub.\\\textit{Working paper}, 2026.
+\item “The Great Redistribution that Wasn’t: A HANK-OLG Perspective on Monetary Policy.” With Micha Brzoza-Brzezina.\\\textit{ECB Working Paper}, 2026.
+\item “K Wasn’t Built in a Day: Investment with Endogenous Time to Build.” With Adriano Fernandes.\\\textit{Working paper}, 2026.
+\item “Precautionary Savings and Stabilization Policy in a Present-Biased Economy.” With Adriano Fernandes.\\\textit{Working paper}, 2026.
+\item “Beyond Averages: Heterogeneous Effects of Monetary Policy in a HANK Model for the Euro Area.” With Hanno Kase.\\\textit{ECB Working Paper}, 2025.
+\end{enumerate}
+
+\cvsection{Teaching Experience}
+
+\cvitem{\bfseries Teaching Assistant}
+
+\cvitem{Harvard: Intermediate Macroeconomics (undergraduate, Fall 2021 and Spring 2022).}
+
+\cvitem{PUC-Rio: Econometrics II (graduate, 2017), Time Series Econometrics (Professional Master’s Program, 2017), Macroeconomics I (graduate, 2017), International Macroeconomics (Professional Master’s Program, 2016), Microeconomics II (graduate, 2017), Mathematics for Economists (graduate, 2017).}
+
+\cvsection{Awards and Honors}
+
+\cvitem{Certificate of Distinction in Teaching, Spring 2022.\\\textit{Office of Undergraduate Education, Harvard University.}}
+\cvitem{Brazilian Econometric Society Prize, 2019.\\\textit{Best paper in Applied Macroeconomics of the 2019 Meeting of the Brazilian Econometric Society.}}
+\cvitem{FAPERJ Bolsa Nota 10, 2017.\\\textit{Scholarship for the student with the highest GPA in PUC-Rio M.A. cohort.}}
+\cvitem{ESAF Award, 2015.\\\textit{Best paper in Public Economics in the 2015 ANPEC National Conference.}}
+
+\cvsection{Languages}
+
+Portuguese (native), English.
